@@ -7,6 +7,7 @@
 
 using namespace std;
 
+//Implement min-priority queue
 
 //declaration each element in heap
 typedef struct element{
