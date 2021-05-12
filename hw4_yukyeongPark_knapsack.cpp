@@ -105,12 +105,10 @@ int main(){
         GD_finish = clock();
         GD_duration = (double)(GD_finish-GD_start)/CLOCKS_PER_SEC;
 
-        cout << numOfItems[i] << "\t" << DP_duration << "ms / " << DP_result 
-        << "\t\t" << GD_duration << "ms / " << GD_result << "\n";   
+        cout << numOfItems[i] << "\t" << DP_duration << "ms / " << DP_result << "\t\t" << GD_duration << "ms / " << GD_result << "\n";   
 
         //write file
-        output << numOfItems[i] << "\t" << DP_duration << "ms / " << DP_result 
-        << "\t\t" << GD_duration << "ms / " << GD_result << "\n";   
+        output << numOfItems[i] << "\t" << DP_duration << "ms / " << DP_result << "\t\t" << GD_duration << "ms / " << GD_result << "\n";   
 
     }
     
